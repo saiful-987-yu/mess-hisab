@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>মেস হিসাব</title>
+<meta name="description" content="মিল ও জমার হিসাব, সবার জন্য এক জায়গায়">
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="মেস হিসাব">
+<meta property="og:title" content="মেস হিসাব">
+<meta property="og:description" content="মিল ও জমার হিসাব, সবার জন্য এক জায়গায়">
+<meta property="og:url" content="https://saiful-987-yu.github.io/mess-hisab/">
+<meta property="og:image" content="https://saiful-987-yu.github.io/mess-hisab/assets/preview.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="মেস হিসাব">
+<meta property="og:locale" content="bn_BD">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="মেস হিসাব">
+<meta name="twitter:description" content="মিল ও জমার হিসাব, সবার জন্য এক জায়গায়">
+<meta name="twitter:image" content="https://saiful-987-yu.github.io/mess-hisab/assets/preview.png">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<script>
+try{var d=document.documentElement,t=localStorage.getItem('mess_theme'),l=localStorage.getItem('mess_lang');
+if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+d.dataset.theme=t;d.lang=l||'bn';}catch(e){}
+</script>
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<header class="top">
+<div class="brand">
+<img class="logo" src="assets/icon.svg" alt="">
+<h1 id="title"></h1>
+</div>
+<div class="tools">
+<button id="btnLang" type="button" aria-label="Language"></button>
+<button id="btnTheme" type="button" aria-label="Theme">◐</button>
+</div>
+</header>
+<main id="view"></main>
+<nav class="tabs" id="tabs"></nav>
+<script src="src/data.js"></script>
+<script src="src/sync.js"></script>
+<script src="src/people.js"></script>
+<script src="src/bill.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>
